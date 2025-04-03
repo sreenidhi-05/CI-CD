@@ -1,0 +1,6 @@
+pandas
+scikit-learn
+skops
+numpy
+matplotlib
+black
