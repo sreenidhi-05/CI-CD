@@ -21,8 +21,8 @@ jobs:
 
       - name: Deploy to Hugging Face
         env:
-          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+          HF_TOKEN: ${{ secrets.HF }}
         run: |
           echo "Starting deployment..."
-          make deploy HF=$HF_TOKEN
+          make deploy HF=$HF
           echo "Deployment completed!"
